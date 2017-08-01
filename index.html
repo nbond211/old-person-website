@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Nick Bond</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="./css/styles.css" rel="stylesheet">
   <link href="./css/nav.css" rel="stylesheet">
+  <link href="./css/title.css" rel="stylesheet">
 </head>
+
 <body>
+  <script src="./js/title.js"></script>
   <div class="container">
     <div class="row">
-      <nav class="col-lg-offset-6 col-lg-6 cl-effect-3">
-          <a href="#">About</a>
-          <a href="#">Experience</a>
-          <a href="#">Side Projects</a>
-          <a href="#">Resume</a>
+      <nav class="col-lg-offset-6 col-lg-6 nav">
+        <a href="#">About</a>
+        <a href="#">Experience</a>
+        <a href="#">Side Projects</a>
+        <a href="#">Resume</a>
       </nav>
+    </div>
+    <div class="row title-section">
+      <div class="col-lg-12">
+        <div class="title-container">
+          <h1 id="nick-bond">Nick Bond</h1>
+          <svg id="title-background" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+            </defs>
+            <circle id="circle1"></circle>
+            <circle id="circle2"></circle>
+            <circle id="circle3"></circle>
+            <circle id="circle4"></circle>
+          </svg>
+        </div>
+
+
+      </div>
     </div>
   </div>
 </body>
+
 </html>

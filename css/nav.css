@@ -1,10 +1,10 @@
 
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-nav a {
+.nav a {
 	position: relative;
 	display: inline-block;
   color: #000;
@@ -18,12 +18,12 @@ nav a {
   padding: 8px 0;
 }
 
-nav a:hover,
-nav a:focus {
+.nav a:hover,
+.nav a:focus {
 	outline: none;
 }
 
-nav a::after {
+.nav a::after {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -40,8 +40,8 @@ nav a::after {
 	transform: translateY(10px);
 }
 
-nav a:hover::after,
-nav a:focus::after {
+.nav a:hover::after,
+.nav a:focus::after {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);

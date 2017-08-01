@@ -2,6 +2,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+::-moz-selection { background: #FFD57F; }
+::selection { background: #FFD57F; }
+
 .container {
   margin-top: 50px;
 }
