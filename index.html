@@ -9,6 +9,7 @@
   <link href="./css/nav.css" rel="stylesheet">
   <link href="./css/title.css" rel="stylesheet">
   <link href="./css/about.css" rel="stylesheet">
+  <link href="./css/experience.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,8 +17,8 @@
   <div class="container">
     <div class="row">
       <nav class="col-lg-offset-6 col-lg-6 nav">
-        <a href="#">About</a>
-        <a href="#">Experience</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#">Side Projects</a>
         <a href="#">Resume</a>
       </nav>
@@ -42,7 +43,7 @@
         </div>
       </div>
     </div>
-    <div class="row about-section">
+    <div id="about" class="row about-section">
       <div class="col-lg-offset-1 col-lg-4">
         <img id="me" src="./img/me.jpg"/>
       </div>
@@ -56,6 +57,90 @@
         <div class="col-lg-6 about-links nav">
           <a href="#">Resume</a>
           <a href="#">Github</a>
+        </div>
+      </div>
+    </div>
+    <div id="experience" class="row experience-section">
+      <div class="col-lg-11 col-lg-offset-1">
+        <h3>Experience</h3>
+      </div>
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="job">
+          <img class="company-logo" src="img/scout-logo.jpg"/>
+          <div class="company-info">
+            <p class="company-name">Scout Studio</p>
+            <p class="job-title">Technology Director</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 job-description-container">
+        <p class="job-description">
+          Oversee engineering of studio projects and ensure quality and maintailability through code reviews and mentorship
+        </p>
+      </div>
+      <div class="col-lg-12 divider"></div>
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="job">
+          <img class="company-logo" src="img/ronik-logo.png"/>
+          <div class="company-info">
+            <p class="company-name">Ronik Design</p>
+            <p class="job-title">Software Engineer Co-op</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 job-description-container">
+        <p class="job-description">
+          Collaborated with designers to design and build the TakeShape CMS
+        </p>
+        <div class="skills">
+          <span>React</span>
+          <span>Redux</span>
+          <span>Node.js</span>
+          <span>GraphQL</span>
+          <span>Elasticsearch</span>
+          <span>AWS</span>
+        </div>
+      </div>
+      <div class="col-lg-12 divider"></div>
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="job">
+          <img class="company-logo" src="img/classforward-logo.png"/>
+          <div class="company-info">
+            <p class="company-name">ClassForward</p>
+            <p class="job-title">Software Engineer Intern</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 job-description-container">
+        <p class="job-description">
+          Converted existing frontend from jQuery to AngularJS and designed and implemented new features in application
+        </p>
+        <div class="skills">
+          <span>AngularJS</span>
+          <span>Python (Flask)</span>
+          <span>SQLAlchemy</span>
+          <span>Web Audio API</span>
+        </div>
+      </div>
+      <div class="col-lg-12 divider"></div>
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="job">
+          <img class="company-logo" src="img/vistaprint-logo.png"/>
+          <div class="company-info">
+            <p class="company-name">Vistaprint</p>
+            <p class="job-title">Software Engineer Co-op</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 job-description-container">
+        <p class="job-description">
+          Designed and built internal tools as .NET and Node.js web applications
+        </p>
+        <div class="skills">
+          <span>C# (.NET)</span>
+          <span>Node.js</span>
+          <span>Knockout.js</span>
+          <span>Entity Framework</span>
         </div>
       </div>
     </div>

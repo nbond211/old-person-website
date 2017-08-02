@@ -1,0 +1,69 @@
+.experience-section {
+  margin-top: 100px;
+}
+
+.experience-section h3 {
+  font-size: 36px;
+  color: #FFD57F;
+}
+
+.company-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.company-info p {
+  margin: 0;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.job-title {
+  font-size: 18px;
+}
+
+.job-description-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.job-description {
+  font-size: 18px;
+  margin: 0;
+}
+
+.divider {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.skills {
+  margin-top: 12px;
+}
+
+.skills span {
+  font-size: 12px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #FFD57F;
+  border-width: 3px;
+  padding: 5px;
+  margin-right: 5px;
+}
