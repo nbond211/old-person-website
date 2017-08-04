@@ -1,0 +1,29 @@
+.side-projects-section {
+  margin-top: 100px;
+}
+
+.side-projects-section h3 {
+  font-size: 36px;
+  color: #FFD57F;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.project-links {
+  align-items: center;
+  margin-left: 25px;
+}
+
+.project-links a {
+  color: #FFD57F;
+  font-weight: 800;
+}
+
+.project-divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
