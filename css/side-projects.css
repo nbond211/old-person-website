@@ -21,9 +21,26 @@
 .project-links a {
   color: #FFD57F;
   font-weight: 800;
+  margin: 15px 25px;
 }
 
 .project-divider {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .project-links {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .project-links a {
+    font-size: 18px;
+  }
+
+  .project-divider {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
