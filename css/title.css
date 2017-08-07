@@ -60,3 +60,32 @@ svg circle {
   r: 100;
   transform-origin: 150px 155px;
 }
+
+@media (max-width: 600px) and (min-width: 510px) {
+  #nick-bond {
+    background-image: linear-gradient(to right, #FFD57F 50%, #FFD57F 50%);
+    background-position-x: center;
+    background-position-y: 60px;
+    background-repeat: no-repeat;
+    background-size: 200% 36px;
+  }
+
+  #title-background {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  #nick-bond {
+    font-size: 60px;
+    background-image: linear-gradient(to right, #FFD57F 50%, #FFD57F 50%);
+    background-position-x: center;
+    background-position-y: 35px;
+    background-repeat: no-repeat;
+    background-size: 200% 24px;
+  }
+
+  #title-background {
+    display: none;
+  }
+}
