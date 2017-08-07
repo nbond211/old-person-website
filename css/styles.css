@@ -2,7 +2,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #2C2C2C;
   margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 ::-moz-selection { background: #98DBFD; }
 ::selection { background: #98DBFD; }
+
+@media (max-width: 350px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
