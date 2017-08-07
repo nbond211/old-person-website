@@ -47,3 +47,10 @@
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+
+@media (max-width: 600px) {
+  .nav a {
+  	font-size: 12px;
+    margin: 15px 5px;
+  }
+}

@@ -1,11 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #2C2C2C;
+  margin-top: 50px;
 }
 
 ::-moz-selection { background: #98DBFD; }
 ::selection { background: #98DBFD; }
-
-.container {
-  margin-top: 50px;
-}
