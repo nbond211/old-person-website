@@ -10,8 +10,9 @@
   position: relative;
   font-size: 144px;
   color: #FFD57F;
-  margin-left: -120px;
+  margin-left: -125px;
   top: 60px;
+  font-weight: 700;
 }
 
 .about-text-container {
@@ -52,7 +53,7 @@
 
 @media (max-width: 1022px) and (min-width: 770px) {
   #hello {
-    margin-left: -85px;
+    margin-left: -90px;
     font-size: 100px;
     top: 0;
   }
