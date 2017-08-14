@@ -17,6 +17,7 @@ svg circle {
   font-weight: 700;
   z-index: 100;
   display: inline;
+  white-space: nowrap;
 }
 
 @keyframes from0to360 {
