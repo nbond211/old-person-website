@@ -7,50 +7,36 @@
 .nav a {
 	position: relative;
 	display: inline-block;
-  color: #000;
+  color: #2C2C2C;
 	margin: 15px 25px;
 	outline: none;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-weight: 700;
 	font-size: 18px;
   padding: 8px 0;
+  background-image: linear-gradient(to right, #FFD57F 50%, #FFD57F 50%);
+  background-position-x: center;
+  background-position-y: 18px;
+  background-repeat: no-repeat;
+  background-size: 200% 8px
 }
 
 .nav a:hover,
 .nav a:focus {
-	outline: none;
-}
-
-.nav a::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 4px;
-	background: #FFD57F;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
-}
-
-.nav a:hover::after,
-.nav a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
+  transition: all 0.1s ease-out;
+	background-position-y: 24px;
 }
 
 @media (max-width: 600px) {
   .nav a {
   	font-size: 12px;
     margin: 15px 5px;
+  }
+
+  .nav a:hover,
+  .nav a:focus {
+    transition: all 0.1s ease-out;
+  	background-position-y: 12px;
   }
 }
